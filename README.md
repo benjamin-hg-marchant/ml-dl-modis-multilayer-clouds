@@ -37,7 +37,7 @@ Table of Content:
 * [How to create a model to detect multilayer ice over ice cloud ?](#multilayer_ice_over_ice) 
 * [How to create a model to detect multilayer liquid over liquid cloud ?](#multilayer_liquid_over_liquid) 
 * [How to apply a machine learning model to a single MODIS granule ?](#modis_granule) 
-* [How to filter MODIS MYD06 cloud effective radius usiing ML models ?](#cer_filtering)
+
 
 ```python
 import tensorflow as tf
@@ -555,7 +555,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_12_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_12_0.png)
 
 
 Remove pixels with latitude > 70:
@@ -640,7 +640,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_19_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_19_0.png)
 
 
 
@@ -651,7 +651,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_20_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_20_0.png)
 
 
 
@@ -684,7 +684,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_22_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_22_0.png)
 
 
 
@@ -706,7 +706,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_24_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_24_0.png)
 
 
 ### Create a simple model that use only 2 modis bands <a class="anchor" id="simple_case"></a>
@@ -1053,7 +1053,7 @@ plt.close()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_34_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_34_0.png)
 
 
 
@@ -1398,7 +1398,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_44_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_44_0.png)
 
 
 ### How to select features that will be used to train DL models ?  <a class="anchor" id="select_input_features"></a>
@@ -1613,7 +1613,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_50_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_50_0.png)
 
 
 
@@ -1996,7 +1996,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_53_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_53_0.png)
 
 
 
@@ -3200,7 +3200,7 @@ plot_MODIS_L2_Cloud_Mask_1km(cloud_mask_flag)
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_91_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_91_0.png)
 
 
 
@@ -3411,19 +3411,19 @@ plot_MODIS_L1(29,modis_band_dic)
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_99_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_99_0.png)
 
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_99_1.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_99_1.png)
 
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_99_2.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_99_2.png)
 
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_99_3.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_99_3.png)
 
 
 
@@ -3510,7 +3510,7 @@ plot_RGB_image(myd021km_file)
 
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_100_1.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_100_1.png)
 
 
 
@@ -3638,7 +3638,7 @@ plot_y_prob(modis_y_prob, 'Probability of a monolayer liquid cloud')
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_109_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_109_0.png)
 
 
 
@@ -3668,7 +3668,7 @@ plot_y_prob(modis_y_prob, 'Probability of a monolayer ice cloud')
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_112_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_112_0.png)
 
 
 
@@ -3698,7 +3698,7 @@ plot_y_prob(modis_y_prob, 'Probability of a monolayer mixed cloud')
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_115_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_115_0.png)
 
 
 
@@ -3728,7 +3728,7 @@ plot_y_prob(modis_y_prob, 'Probability of a multilayer ice over liquid cloud')
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_118_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_118_0.png)
 
 
 
@@ -3849,7 +3849,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_125_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_125_0.png)
 
 
 
@@ -3866,7 +3866,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_126_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_126_0.png)
 
 
 
@@ -3883,7 +3883,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_127_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_127_0.png)
 
 
 
@@ -3934,7 +3934,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_131_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_131_0.png)
 
 
 
@@ -3950,7 +3950,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_132_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_132_0.png)
 
 
 
@@ -3979,7 +3979,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_135_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_135_0.png)
 
 
 
@@ -4027,7 +4027,7 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_138_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_138_0.png)
 
 
 
@@ -4042,5 +4042,5 @@ plt.show()
 ```
 
 
-![png](deep_learning_with_tensorflow_for_modis_multilayer_clouds_files/deep_learning_with_tensorflow_for_modis_multilayer_clouds_139_0.png)
+![png](img/deep_learning_with_tensorflow_for_modis_multilayer_clouds_139_0.png)
 
