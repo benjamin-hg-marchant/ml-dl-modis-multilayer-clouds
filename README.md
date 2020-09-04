@@ -37,7 +37,7 @@ Table of Content:
 * [How to create a model to detect multilayer ice over ice cloud ?](#multilayer_ice_over_ice) 
 * [How to create a model to detect multilayer liquid over liquid cloud ?](#multilayer_liquid_over_liquid) 
 * [How to apply a machine learning model to a single MODIS granule ?](#modis_granule) 
-
+* [How to filter MODIS MYD06 cloud effective radius usiing ML models ?](#cer_filtering)
 
 ```python
 import tensorflow as tf
