@@ -12,6 +12,8 @@ Author: Benjamin Marchant
 <br> v1.0.0
 </p>
 
+[![DOI](https://zenodo.org/badge/291841263.svg)](https://zenodo.org/badge/latestdoi/291841263)
+
 This Jupyter notebook presents a TensorFlow machine learning algorithm to detect cloud thermodynamic phase and multilayer clouds for the MODIS (Moderate Resolution Imaging Spectroradiometer) instrument. The algorithm is trained using a co-located dataset between MODIS CALIOP and CloudSat.
 
 Note 1: dataset used to train the algorithm is publicly available [on Github](https://github.com/benjamin-hg-marchant/ml-gp-modis-multilayer-clouds/tree/master/data).
